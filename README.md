@@ -36,45 +36,14 @@ Modo de uso
 * al presionar enter en alguna busqueda se generan los registros para la estadistica
 * al presionar el boton ver las estadisticas, veremos una lista con los productos mas buscados y las 5 palabras mas utilizadas con la cantidad de veces que fueron utilizadas.
 
+una vez instalados disponemos de los webservices de busqueda y estadisticas que nos devuelven un json 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-se puede cambiar la configuracion del nombre y conexion de base de datos en 
-
-
-una vez realizada la conexion puede utilizar la base de datos dump.sql
-
-o tambien puede ejecutar las migraciones de laravel
-con php artisan migrate, que creara todas las tablas de da base de datos
-
-luego puede insertar datos de pruebas con el csv en la pagina de producto
-o puede ejecutar los seeder que crearan la lista de productos 
-
-php artisan db:seed
-
-
-jdominguez/cupoprueba
-
-
-
-
-
-Documentación
+Web services
+-------------------
 
 Webservice lista de productos
 
-http://prueba-cuponatic.herokuapp.com/productos/listProductos
+http://localhost/public/productos/listProductos
 metodo Post
 
 Parametros
@@ -87,7 +56,7 @@ retorna la data en JSON
 
 
 Webservice estadisticas
-http://prueba-cuponatic.herokuapp.com 
+http://localhost/proyecto/public/productos/estadistica 
 
 metodo GET
 No requiere parametros
