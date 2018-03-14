@@ -12,10 +12,12 @@ Mysql 15
 
 instalación
 -------------
-*copiar el repositorio git en la carpeta de proyecto
-*agregar los parametros de host,usuario,pass de base de datos en config/database.php
-*instalamos dependencias javascript, npm install
-*instalamos dependencias php composer install
+* copiar el repositorio git en la carpeta de proyecto
+* agregar los parametros de host,usuario,pass de base de datos en config/database.php
+* instalamos dependencias javascript, npm install
+* instalamos dependencias php composer install
+* versionamos js y pasamos los archivos a public npm run dev
+
 
 Creación de base de datos y datos de prueba
 --------------------------------------------
